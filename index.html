@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lokeshwari E — Portfolio</title>
+  <meta name="description" content="Portfolio of Lokeshwari E — About, Skills, and Certificates." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header / Nav -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Go to top">
+        <span class="brand-mark">LE</span>
+        <span class="brand-text">Lokeshwari&nbsp;E</span>
+      </a>
+
+      <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="siteNav" aria-label="Open menu">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </button>
+
+      <nav id="siteNav" class="site-nav" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#certificates">Certificates</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="top" class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <h1>Hi, I'm <span class="accent">Lokeshwari&nbsp;E</span></h1>
+        <p class="tagline">Aspiring Web Developer • Passion for clean UI and responsive design</p>
+        <div class="hero-cta">
+          <a class="btn primary" href="#about">Explore</a>
+          <a class="btn ghost" href="#certificates">View Certificates</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <p class="lead">
+        I'm an enthusiastic developer focused on building responsive, accessible, and user‑friendly web experiences.
+        I enjoy translating ideas into interactive interfaces using HTML, CSS, and JavaScript. I’m eager to learn,
+        collaborate, and contribute to real‑world projects.
+      </p>
+      <div class="about-grid">
+        <div class="about-card">
+          <h3>Goals</h3>
+          <ul>
+            <li>Master modern front‑end frameworks and tooling</li>
+            <li>Contribute to open‑source UI components</li>
+            <li>Build real products that help people</li>
+          </ul>
+        </div>
+        <div class="about-card">
+          <h3>Highlights</h3>
+          <ul>
+            <li>Strong foundation in semantic HTML and modern CSS</li>
+            <li>Responsive layouts with Flexbox &amp; Grid</li>
+            <li>Vanilla JS for interactivity &amp; accessibility</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section alt">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill">
+          <h3>Frontend</h3>
+          <ul>
+            <li>HTML5 (semantic, accessible)</li>
+            <li>CSS3 (Flexbox, Grid, Animations)</li>
+            <li>JavaScript (ES6+)</li>
+          </ul>
+        </div>
+        <div class="skill">
+          <h3>Tools</h3>
+          <ul>
+            <li>Git &amp; GitHub</li>
+            <li>VS Code</li>
+            <li>Chrome DevTools</li>
+          </ul>
+        </div>
+        <div class="skill">
+          <h3>Soft Skills</h3>
+          <ul>
+            <li>Problem‑solving</li>
+            <li>Communication</li>
+            <li>Team collaboration</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificates -->
+  <section id="certificates" class="section">
+    <div class="container">
+      <h2 class="section-title">Certificates</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Responsive Web Design</h3>
+          <p class="meta">freeCodeCamp — 2025</p>
+          <p>Completed a comprehensive curriculum covering HTML, CSS, and accessibility best practices.</p>
+        </article>
+        <article class="card">
+          <h3>JavaScript Algorithms &amp; Data Structures</h3>
+          <p class="meta">freeCodeCamp — 2025</p>
+          <p>Practiced core programming concepts and problem‑solving using modern JavaScript.</p>
+        </article>
+        <article class="card">
+          <h3>Introduction to Web Development</h3>
+          <p class="meta">Coursera — 2024</p>
+          <p>Learned the fundamentals of the web, version control, and developer workflows.</p>
+        </article>
+      </div>
+      <p class="note">Tip: Replace these with your actual certificates, issuers, and dates.</p>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Lokeshwari E. All rights reserved.</p>
+      <a class="back-to-top" href="#top" aria-label="Back to top">↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
